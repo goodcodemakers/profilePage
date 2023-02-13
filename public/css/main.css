@@ -24,6 +24,7 @@ h3 {
   font-family: "Nanum Myeongjo", serif;
   max-width: 1440px;
   margin: 0 auto;
+  margin-bottom: 300px;
 }
 header {
   display: flex;
@@ -177,4 +178,71 @@ h1:hover {
 }
 #about .skill .skillBox .row img {
   margin: 0 15px;
+}
+#about .tool h3 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+#about .tool .toolBox {
+  border: 1px solid #000;
+  background: #ffffff;
+  padding: 35px 70px;
+}
+#about .tool .toolBox img {
+  margin: 0 25px;
+}
+#work {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#work h3 {
+  margin-top: 150px;
+  margin-bottom: 50px;
+  font-size: 30px;
+}
+#work .workOne {
+  background: #d9d9d9;
+  display: flex;
+  gap: 60px;
+}
+#work .workOne .workImg {
+  margin: 45px auto;
+  margin-left: 50px;
+}
+#work .workOne .oddugi {
+  background: url(../image/oddugimain_1.png);
+  width: 400px;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0.3s;
+}
+#work .workOne .workExplanation {
+  text-align: center;
+}
+#work .workOne .workExplanation h3 {
+  font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+#work .workOne .workExplanation h4 {
+  font-size: 18px;
+  font-weight: bold;
+}
+#work .workOne .workExplanation ul {
+  margin-bottom: 20px;
+}
+#work .workOne .workExplanation .btnBox {
+  margin-top: 20px;
+}
+#work .workOne .workExplanation button {
+  width: 100px;
+  height: 50px;
+  border-radius: 20px;
+  padding: 10px;
+  text-align: center;
+  margin-right: 20px;
 }
