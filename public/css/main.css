@@ -206,6 +206,8 @@ h1:hover {
   background: #d9d9d9;
   display: flex;
   gap: 60px;
+  margin: 0 50px;
+  margin-bottom: 50px;
 }
 #work .workOne .workImg {
   margin: 45px auto;
@@ -222,15 +224,18 @@ h1:hover {
 }
 #work .workOne .workExplanation {
   text-align: center;
+  margin-right: 20px;
 }
 #work .workOne .workExplanation h3 {
   font-size: 20px;
   margin-top: 50px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  font-weight: bold;
 }
 #work .workOne .workExplanation h4 {
   font-size: 18px;
   font-weight: bold;
+  margin-bottom: 20px;
 }
 #work .workOne .workExplanation ul {
   margin-bottom: 20px;
@@ -245,4 +250,27 @@ h1:hover {
   padding: 10px;
   text-align: center;
   margin-right: 20px;
+  margin-bottom: 20px;
 }
+#work .workOne .workExplanation .text-line {
+  line-height: 2rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+/* .swiper-slide img {
+  display: block;
+  width: 40%;
+} */
